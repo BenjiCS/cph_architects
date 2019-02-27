@@ -1,0 +1,41 @@
+@media screen and (min-width: 769px){    
+  .kort {
+    display: flex;
+  }
+  
+  .text {
+    background: #BCDFDE;
+    padding: 10px;
+    min-width: 82%;
+  }
+  
+  .baggrund {
+    width: 184px;
+    height: 256px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .kort {
+    display: flex;
+  }
+  
+  .text {
+    background: #BCDFDE;
+    padding: 10px;
+  }
+  
+  .baggrund {
+    width: 120px;
+    height: 176px;
+  }
+
+  section h2{
+    margin: 10px 0;
+  }
+
+  section p{
+    line-height: 20px;
+  }
+
+}

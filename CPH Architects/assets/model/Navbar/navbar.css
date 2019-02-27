@@ -1,0 +1,90 @@
+nav {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1.5fr;
+    color: white;
+}
+
+ul > li{
+    font-size: x-large;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+@media screen and (min-width: 769px){
+    
+    nav{
+        background-color: #92B8B7;
+    }
+
+label{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    justify-self: center;
+    margin: 0 0 0 30%;
+}
+
+li{
+    display: inline;
+}
+
+.title{
+    justify-self: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+    
+}
+@media screen and (max-width: 768px){
+    
+    ul{
+        display: none;
+        list-style: none;
+    }
+    
+    input[type="checkbox"]:checked ~ ul{
+        display: block;
+    }
+    
+    nav{
+        background: #707070;
+    }
+    
+    .menu{
+        grid-column: 1 / 3;
+        justify-self: center;    
+}
+
+.title{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-color: #92B8B7;
+}
+
+.title h1{
+    margin: 5px 0;
+}
+
+label{
+    justify-self: end;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 0 10px 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+}
