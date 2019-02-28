@@ -7,6 +7,10 @@
         margin: 10px 10%;
     }
 
+    figure{
+        margin: 10px 10%;
+    }
+
     main{
         margin: 0 10%;
     }
@@ -14,6 +18,58 @@
     main h1{
         margin: 10px 0;
     }
+
+    .wrapper{
+        background-image: url(../img/photo.png);
+        min-height: 980px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .wrapperbutton{
+        background-image: url(../img/photo.png);
+        min-height: 980px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .buttontext{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        background: #BCDFDE;
+    }
+
+    .buttontext p{
+        align-self: center;
+    }
+
+    .wrappertext {
+        height: 580px;
+      }
+      
+    .wrappertext p {
+        line-height: 1.6; 
+        text-align: justify;
+        margin: 0;
+      }
+      
+      .star {
+        float: right;
+        width: 50%;
+        height: 250;
+        shape-outside: url(/assets/img/photo.png);
+        shape-margin:20px;
+        margin-left: 20px;
+      }
+
+      .figures3mobil{
+          display: none;
+      }
+
+      .wrappermobil{
+          display: none;
+      }
 }
 
 @media screen and (max-width: 768px){
@@ -29,5 +85,59 @@
     main h1{
         margin: 10px 0;
     }
+    
+    .wrappermobil{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-image: url(../img/photo.png);
+        min-height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .wrapper{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-image: url(../img/photo.png);
+        min-height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    .wrappertext{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-image: url(../img/photo.png);
+        min-height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .wrappertext{
+        display: none;
+    }
+
+    .figures3mobil{
+        margin: 25px 0;
+    }
+
+    .figures3{
+        margin: 0 0 25px 0;
+    }
+
+    .wrapperbutton img{
+        max-width: 100%;
+    }
+
+    .buttontext{
+        display: none;
+    }
+
+    .wrapperbutton{
+        display: none;
+    }
+}
 }
