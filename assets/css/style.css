@@ -1,4 +1,8 @@
-    *{
+@import "/assets/model/Navbar/navbar.css";
+@import "/assets/model/Footer/footer.css";
+@import "/assets/model/Card/card.css";
+@import "/assets/css/fonts.css";
+   *{
         margin: 0;
         padding: 0;
     }
